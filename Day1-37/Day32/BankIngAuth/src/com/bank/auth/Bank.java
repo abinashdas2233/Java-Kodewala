@@ -1,0 +1,60 @@
+package com.bank.auth;
+
+abstract class Bank {
+	public abstract void logIn();
+
+	public abstract void createAccount();
+
+	public abstract void indexPage();
+
+}
+
+class SavingAccount extends Bank {
+
+	@Override
+	public void logIn() {
+		// TODO Auto-generated method stub
+		System.out.println("saving account loggin");
+
+	}
+
+	@Override
+	public void createAccount() {
+		// TODO Auto-generated method stub
+		System.out.println("saving account create functionality");
+
+	}
+
+	@Override
+	public void indexPage() {
+		// TODO Auto-generated method stub
+		System.out.println("indexpage transfer for saving account");
+
+	}
+
+}
+
+class CurrentAccount extends Bank {
+
+	@Override
+	public void logIn() {
+		// TODO Auto-generated method stub
+		System.out.println("current account loggin");
+
+	}
+
+	@Override
+	public void createAccount() {
+		// TODO Auto-generated method stub
+		System.out.println("current account create functionality");
+
+	}
+
+	@Override
+	public void indexPage() {
+		// TODO Auto-generated method stub
+		System.out.println("indexpage transfer for saving account");
+
+	}
+
+}

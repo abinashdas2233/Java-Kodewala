@@ -1,0 +1,8 @@
+package com.additioncalculator;
+
+public class Calculator {
+	public static void main(String[] args) {
+		Icalculator cal=(a,b)->a+b;
+		cal.add(5, 6);
+	}
+}

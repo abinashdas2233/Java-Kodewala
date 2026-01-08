@@ -1,0 +1,27 @@
+package com.kodewala.learn;
+
+public class Payment {
+	double amount;
+	String password;
+	public Payment(String password,double amount) {
+		this.password=password;
+		this.amount=amount;
+	}
+	public Payment() {
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Payment abhi=new Payment("123456@");
+		System.out.println("Password set success fully. password="+abhi.password);
+		System.out.prinln("amount="+abhi.amount);
+		
+		Payment nisha=new Payment("5467");
+		System.out.println("Password set success fully. password="+nisha.password);
+		System.out.prinln("amount="+abhi.amount)
+
+
+	}
+
+}

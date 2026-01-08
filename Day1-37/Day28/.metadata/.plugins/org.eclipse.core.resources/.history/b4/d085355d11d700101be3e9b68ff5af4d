@@ -1,0 +1,21 @@
+package com.polymorphism;
+
+class Employee extends Object{
+	
+	
+}
+class SeniorStaff extends Employee{
+	
+}
+class JuniorStaff extends Employee{
+	
+}
+
+public class OfficeStaff {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

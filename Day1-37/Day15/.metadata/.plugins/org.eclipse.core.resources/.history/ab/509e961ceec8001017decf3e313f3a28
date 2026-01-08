@@ -1,0 +1,12 @@
+package com.kodewala.learn;
+class AccountDetails{
+	
+	public String 
+}
+
+public class Bank {
+	public static void main(String[]args) {
+		
+	}
+
+}

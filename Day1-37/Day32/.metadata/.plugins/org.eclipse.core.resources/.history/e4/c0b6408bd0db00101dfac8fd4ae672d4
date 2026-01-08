@@ -1,0 +1,30 @@
+package com.bank.auth;
+
+public class ProcessUnit {
+	public static void process(Bank bank) {
+		
+		if(bank instanceof SavingAccount) {
+			//first it will call saving account functionality
+			bank.createAccount();
+			bank.login();
+			bank.indexPage();
+		}
+		else {
+			//current account functionality
+			bank.createAccount();
+			bank.login();
+			bank.indexPage();
+			
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Bank saving=new SavingAccount();
+		Bank current=new CurrentAccount();
+		process(saving);
+		process(current);
+
+	}
+
+}

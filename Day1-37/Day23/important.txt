@@ -1,0 +1,5 @@
+String (part-2):-
+
+1.string is immutable ,we can't change after intialization. if we will try to change in existing string then new object will be create.
+2.== compare object memory location,equals()compare the 2 strings contents.
+3.equals() is overridden from object class to string class.

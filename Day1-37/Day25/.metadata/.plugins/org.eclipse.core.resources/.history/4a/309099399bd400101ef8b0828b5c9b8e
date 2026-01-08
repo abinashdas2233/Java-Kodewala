@@ -1,0 +1,21 @@
+package com.comparision;
+final class Person{
+	public void display() {
+		System.out.print("hello");
+	}
+	
+}
+class customer extends Person{
+	public void display() {
+		System.out.print("hello");	}
+	
+}
+public class CheckFinal {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

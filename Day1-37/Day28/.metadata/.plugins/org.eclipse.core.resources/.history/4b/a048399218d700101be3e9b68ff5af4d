@@ -1,0 +1,24 @@
+package com.polymorphism;
+class FoodDelivery{
+	
+	
+}
+class DeliveryPartner extends FoodDelivery{
+	
+	public void trackingSystem() {
+		System.out.println("location tracking");
+	}
+	
+}
+
+public class Ecommerce {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DeliveryPartner fd=(DeliveryPartner)new FoodDelivery();
+		fd.trackingSystem();
+		
+
+	}
+
+}

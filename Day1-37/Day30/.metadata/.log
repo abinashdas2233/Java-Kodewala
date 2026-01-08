@@ -1,0 +1,32 @@
+!SESSION 2025-12-16 10:27:41.749 -----------------------------------------------
+eclipse.buildId=4.37.0.20250905-1455
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abinashdas/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abinashdas/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-12-16 10:27:47.240
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-12-16 10:27:47.787
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (796) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-12-16 10:28:17.834
+!MESSAGE Logback config file: /Users/abinashdas/Desktop/Kodewala class work/Day30/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml
+!SESSION 2025-12-16 16:34:44.691 -----------------------------------------------
+eclipse.buildId=4.37.0.20250905-1455
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abinashdas/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abinashdas/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-12-16 16:34:51.584
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-12-16 16:34:52.088
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (796) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-12-16 16:35:06.667
+!MESSAGE Logback config file: /Users/abinashdas/Desktop/Kodewala class work/Day30/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.100.20250418-1315.xml

@@ -1,0 +1,39 @@
+package com.reservationcontroller;
+
+public class UserController implements IIrctcBooking{
+	int bookCount=0;
+	
+
+	public UserController() {
+		super();
+		this.bookCount=bookCount+1;
+	}
+
+	@Override
+	public void searchTicket() {
+		// TODO Auto-generated method stub
+		System.out.println("User side search functionallity");
+		
+	}
+
+	@Override
+	public void bookTicket() {
+		// TODO Auto-generated method stub
+		if(bookCount==MAXTICKET) {
+			System.out.println("Not allowed to booking more.");
+		}
+		
+			
+			System.out.println("User side book functionallity");
+			
+		
+	}
+
+	@Override
+	public void cancelTicker() {
+		// TODO Auto-generated method stub
+		System.out.println("User side cancel functionallity");
+		
+	}
+
+}

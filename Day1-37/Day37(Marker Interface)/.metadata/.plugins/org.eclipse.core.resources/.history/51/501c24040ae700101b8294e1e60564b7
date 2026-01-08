@@ -1,0 +1,12 @@
+package com.cloneing;
+
+public class Product {
+	int id;
+	String name;
+	public Product() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+
+}

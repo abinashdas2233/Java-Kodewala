@@ -1,0 +1,3 @@
+Interview question:-
+1.what happened if constructor isn't present ??
+ans-if constructor not define by the developer ,then java compiler will call default constructor while creating an object.

@@ -1,0 +1,21 @@
+package com.kodewala.learn;
+class AccountDetails{
+	String name="Abhi";
+	String number="25684";
+	double amount=50000.00;
+	
+	public String displayDetails() {
+		return name+" "+number+ " "+amount;
+	}
+}
+
+public class Bank {
+	public static void main(String[]args) {
+		//creating of object
+		AccountDetails account=new AccountDetails();
+		//using reference variable calling method
+		System.out.println(account.displayDetails());
+		
+	}
+
+}

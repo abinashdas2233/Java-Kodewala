@@ -1,0 +1,14 @@
+package com.comparision;
+
+import java.util.Date;
+
+public class ZomatoTask {
+	public static void main(String[] args) {
+		String email="abinashdas.43@gmail.com";
+		String orderNo="f2342";
+		String date=new Date().toString();
+		System.out.println(date);
+		
+	}
+
+}

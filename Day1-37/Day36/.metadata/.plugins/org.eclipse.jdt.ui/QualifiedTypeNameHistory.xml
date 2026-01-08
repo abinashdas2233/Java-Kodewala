@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+    <fullyQualifiedTypeName name="com.learn.IOlaBooking"/>
+    <fullyQualifiedTypeName name="com.additioncalculator.Icalculator"/>
+    <fullyQualifiedTypeName name="com.evenodd.ICheckNumber"/>
+    <fullyQualifiedTypeName name="com.stringlength.IStringLength"/>
+</qualifiedTypeNameHistroy>

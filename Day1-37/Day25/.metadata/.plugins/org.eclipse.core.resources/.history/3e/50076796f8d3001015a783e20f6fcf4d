@@ -1,0 +1,23 @@
+package com.comparision;
+
+import java.util.Date;
+
+
+
+public class ZomatoTask {
+	
+	
+	public static void main(String[] args) {
+		String email="abinashdas.43@gmail.com";
+		String []details={"f2342",new Date().toString(),"500"};
+		
+		StringBuilder sb=new StringBuilder();
+		sb.append("dear "+email);
+		sb.append("Thank you for placing order, your order details:-");
+		for(String i:details) {
+			sb.append(i);
+		}
+		System.out.println(sb);
+	}
+
+}

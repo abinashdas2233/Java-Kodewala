@@ -1,0 +1,31 @@
+package bank_System;
+
+class Account extends Object{
+	String name;
+	public Account(String name) {
+		this.name=name;
+	}
+	
+	public 
+	@Override
+	public boolean equals(Object obj) {
+		
+		
+	}
+}
+class Bank extends Account{
+	@Override
+	public boolean equals(Object obj) {
+		
+	}
+	
+}
+
+public class UserAccount {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.staticmethoh;
+
+
+
+public interface IReservation {
+	abstract void print();
+	public static void gstApplied(String category,int gst) {
+		System.out.println(gst+" gst applied for "+category);
+		printTicket();
+		storeinDB();
+	}
+	
+	public static void storeinDB() {
+		
+		printTicket();
+		System.out.println("Ticker stored in database.");
+	}
+	private static void printTicket() {
+		System.out.println("Ticket is finished");
+		
+	}
+
+}

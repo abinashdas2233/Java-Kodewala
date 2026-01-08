@@ -1,0 +1,18 @@
+package com.ecom;
+
+class PaymentMode {
+	
+
+}
+class CreditCard extends PaymentMode{
+	public CreditCard() {
+		System.out.println("payment done through credit card");
+	}
+	
+}
+class DebitCard extends PaymentMode{
+	public DebitCard() {
+		System.out.println("payment done through debit card");
+	}
+	
+}

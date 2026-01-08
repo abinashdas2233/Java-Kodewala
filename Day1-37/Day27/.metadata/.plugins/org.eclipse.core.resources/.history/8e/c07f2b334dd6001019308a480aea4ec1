@@ -1,0 +1,45 @@
+package com.inheritance;
+
+class Store {
+
+	String name;
+	double price;
+	int quantity;
+
+	public Store() {
+		super();
+	}
+
+	public Store(String name, double price, int quantity) {
+
+		this.name = name;
+		this.price = price;
+		this.quantity = quantity;
+	}
+
+	public void generateInvoice() {
+		System.out.print("name-" + name + " price-" + price + " quantity-" + quantity);
+	}
+
+}
+
+class Customer extends Store {
+
+	public Customer(String name, double price, int quantity) {
+		super(name, price, quantity);
+		// TODO Auto-generated constructor stub
+	}
+
+}
+
+public class Ecommerce {
+
+	public static void main(String[] args) {
+
+		Customer customer = new Customer("abhi", 213.00, 4);
+		System.out.println("Bill for customer");
+		customer.generateInvoice();
+
+	}
+
+}

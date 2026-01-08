@@ -1,0 +1,141 @@
+Control flow
+	•	If age is greater then 18, execute some code(allow the apply for DL)
+	•	If amount is greater then 5000, give 10% discount 
+	•	If person belongs to IN, allow him/her to apply for Passport.
+If(age > 18)  
+{
+// allow to apply for DL
+}
+
+If(age > 18)  
+{
+// allow to apply for DL
+}
+
+If(condition)  
+{
+// execute this biz logic
+}
+int age = 16;
+if(age > 18) // true or false
+{
+Sop(“ Allow to apply DL”)
+}
+else
+{
+Sop(“ Age should be more than 18”)
+}
+int age = 16;
+if(age > 18) // true or false
+{
+Sop(“ Allow to apply DL”)
+}
+else
+{
+Sop(“ Age should be more than 18”)
+}
+
+
+
+
+
+
+
+
+
+
+Develop an application 
+	•	User should be able to apply for Driving license if age is 18 and above and below 60
+	•	Show alert if age in not in range. 
+
+	•	Condition1  discount is 10%
+	•	Condition2  15%
+	•	Condition3  20%
+
+Else if 
+
+
+If(condition1)
+{
+// 10%
+}
+else if
+{
+// 15%
+}
+Else if 
+{
+// 20%
+}
+Else
+{
+// something 
+}
+If(condition1)
+{
+// 10%
+}
+else if
+{
+// 15%
+}
+Else if 
+{
+// 20%
+}
+Else
+{
+// something 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+Develop an application which will provide discount to amazon users.
+	•	No discount for amount less than 1000
+	•	10% discount for amount ranging between 1000 and 5000
+	•	Above 5000, 15% discount
+	•	Max discount should be 1000 only
+
+Develop banking payment app:
+	•	Supported Payment type will be CreditCard, DebitCard, NetBanking
+	•	Allow user to choose the payment type
+	•	Print the selected payment type 
+	•	If payment type is not from the supported type, print “new payment type found.”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+package com.kodewala.learn;
+class AccountDetails{
+	String name="Abhi";
+	String number="2568"
+	
+	public String displayDetails() {
+		return 
+	}
+}
+
+public class Bank {
+	public static void main(String[]args) {
+		
+	}
+
+}

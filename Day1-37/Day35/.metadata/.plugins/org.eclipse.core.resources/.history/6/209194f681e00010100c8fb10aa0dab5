@@ -1,0 +1,5 @@
+package com.staticmethoh;
+
+public interface IReservation {
+
+}

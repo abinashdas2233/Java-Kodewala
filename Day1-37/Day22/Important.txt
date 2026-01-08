@@ -1,0 +1,10 @@
+String:-
+1.string can be created in two ways:-
+			1.using string literal Ex= String str="Mihir" //string literal also 			
+			considered as an object.
+			2.using new keyword.ex= String str=new String("das")
+2.if declare string using new keyword then string will get memory location in heap.
+4.String literal take places in scp(String cosnstant pool).no garbage collection thread is present in scp.
+5.suppose ,if the multiple string literal having same content all string literal having a common object.it indicates same memory location in SCP.
+6.but using new keyword ,if string object created ,wether content same or not it will create separate object in heap segment.
+7.using new keyword string object  creation is useful when content isn't matter .

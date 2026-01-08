@@ -1,0 +1,5 @@
+Arrays important:-
+1.if no value store any of the index of an array ,it will store the default value wrt to data type.
+
+2.if someone try to acces above the index size then index out of bound exception will throw.
+3.diffrence between sequence and random storing process.

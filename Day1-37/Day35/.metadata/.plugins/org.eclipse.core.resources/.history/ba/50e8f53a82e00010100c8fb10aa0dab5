@@ -1,0 +1,7 @@
+package com.staticmethoh;
+
+public class ReserveCoach  implements IReservation
+{
+	
+
+}

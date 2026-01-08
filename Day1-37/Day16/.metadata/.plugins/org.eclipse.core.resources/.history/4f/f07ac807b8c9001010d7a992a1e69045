@@ -1,0 +1,45 @@
+package com.ecommerce;
+class Order{
+	int orderId;
+	String itemName;
+	double price;
+	int quantity;
+	public Order(int orderId,String itemName,double price,int quantity) {
+		this.orderId=orderId;
+		this.itemName=itemName;
+		this.price=price;
+		this.quantity=quantity;
+	}
+	public void printBill() {
+		if(price >100.00) {
+			System.out.println(orderId+" "+itemName+" "+price+" 2% gst applicable");
+			
+			
+		}
+		else {
+			System.out.println(orderId+" "+itemName+" "+price+" 2% gst applicable");
+		}
+		
+		
+		
+		
+		
+	}
+	
+}
+public class ZomatoCart {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Order abhi=new Order(23,"maggie",80.00,2);
+		Order rahul=new Order(25,"pizza",150.00,1);
+		Order rakhi=new Order(29,"burgger",180.00,2);
+		Order mani=new Order(28,"biriyani",380.00,2);
+		abhi.printBill();
+		rahul.printBill();
+		rakhi.printBill();
+		mani.printBill();
+
+	}
+
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.ecom.PaymentMode"/>
+    <fullyQualifiedTypeName name="com.ecom.CreditCard"/>
+    <fullyQualifiedTypeName name="com.ecom.PaymentProcess"/>
+    <fullyQualifiedTypeName name="com.ecom.OnlinePayment"/>
+    <fullyQualifiedTypeName name="com.ecom.Cod"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.ecom.DebitCard"/>
+</qualifiedTypeNameHistroy>

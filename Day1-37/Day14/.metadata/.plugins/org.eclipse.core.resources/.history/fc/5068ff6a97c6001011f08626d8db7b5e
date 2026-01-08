@@ -1,0 +1,5 @@
+package amazon.login;
+
+public class UserLogin {
+
+}

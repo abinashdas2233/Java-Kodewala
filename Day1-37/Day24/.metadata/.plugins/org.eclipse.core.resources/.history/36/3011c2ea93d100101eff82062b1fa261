@@ -1,0 +1,10 @@
+package com.string_learning;
+
+public class StringCreation {
+	public static void main(String[]args) {
+		String str="Btm";
+		str=str.concat(" Bangalore");
+		System.out.print(str);
+	}
+
+}

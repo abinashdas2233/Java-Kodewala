@@ -1,0 +1,24 @@
+package com.constructorchaining;
+class Cart{
+	public Cart(int quantity) {
+        int i=10;
+		super();
+		
+		
+		
+	}
+	public Cart(double amount,int quantity) {
+		System.out.println(" Total amount="+amount*quantity);
+	}
+	
+	
+}
+
+public class Product {
+	public static void main(String[]args) {
+		Cart cart=new Cart(2);
+		
+		
+	}
+
+}

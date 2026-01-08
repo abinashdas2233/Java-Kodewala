@@ -1,0 +1,5 @@
+package com.reservationcontroller;
+
+public class User {
+
+}

@@ -1,0 +1,11 @@
+package com.staticmethoh;
+
+
+
+public interface IReservation {
+	abstract void print();
+	public static void gstApplied(String category,int gst) {
+		System.out.println(gst+" gst applied for "+category);
+	}
+
+}

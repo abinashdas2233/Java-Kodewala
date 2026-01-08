@@ -1,0 +1,41 @@
+package com.reservationcontroller;
+
+class AgentController implements IIrctcBooking{
+	int bookCount=0;
+	
+
+	public AgentController() {
+		super();
+		this.bookCount=bookCount+1;
+	}
+
+	@Override
+	public void searchTicket() {
+		// TODO Auto-generated method stub
+		System.out.println("agent side search functionallity");
+		
+	}
+
+	@Override
+	public void bookTicket() {
+		// TODO Auto-generated method stub
+		if(bookCount>=MAXTICKET) {
+			System.out.println("Not allowed to booking more.");
+			return;
+		}
+		
+			
+			System.out.println("agent side book functionallity");
+			
+		
+	}
+
+	@Override
+	public void cancelTicker() {
+		// TODO Auto-generated method stub
+		System.out.println("agent side cancel functionallity");
+		
+	}
+
+}
+

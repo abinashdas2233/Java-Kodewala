@@ -1,0 +1,13 @@
+package com.kodewala;
+
+public class HelloEclipse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String name="abinash das";
+		System.out.println("hi"+name); 
+		
+
+	}
+
+}

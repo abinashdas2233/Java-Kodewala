@@ -1,0 +1,32 @@
+package com.inheritance;
+
+
+class Store{
+	
+	String name;
+	double price;
+	int quantity;
+	public Store(String name, double price, int quantity) {
+		
+		this.name = name;
+		this.price = price;
+		this.quantity = quantity;
+	}
+	
+	public void generateInvoice() {
+		
+	}
+	
+}
+class Customer extends Store{
+	
+}
+
+public class Ecommerce {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

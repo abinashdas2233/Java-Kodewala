@@ -1,0 +1,20 @@
+package com.ecom;
+
+class PaymentProcess {
+
+}
+class OnlinePayment extends PaymentProcess{
+	public CreditCard display() {
+		System.out.println("returning credit card object");
+		return new CreditCard();
+	}
+	
+}
+class Cod extends PaymentProcess{
+	public DebitCard display() {
+		System.out.println("returning debit card object");
+		return new DebitCard();
+	}
+	
+	
+}

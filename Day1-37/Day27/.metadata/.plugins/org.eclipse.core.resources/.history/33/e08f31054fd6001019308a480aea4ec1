@@ -1,0 +1,11 @@
+package com.inheritance;
+
+public class PaymentSystem {
+
+	public static void main(String[] args) {
+		//Develope a payment application to proceess creditcard,net banking and upi payments
+		
+
+	}
+
+}

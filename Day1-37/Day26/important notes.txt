@@ -1,0 +1,15 @@
+oops:-
+1.what is oops?
+ans:-way of writing code.
+2. 4 pillars of oops:-
+	1.encapsulation
+	2.inheritance
+	3.polymorphism
+	4.abstraction
+
+Encapsulation:-
+3.Encapsulation->Binding data and methods in a single unit.
+	1.here data will be private and public.
+4.ooo->out of office.
+5.in encapsulation , all data member should be private.
+

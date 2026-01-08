@@ -1,0 +1,94 @@
+package com.learn;
+import java.util.*;
+//write a program to take the input for employee,note:-validate each input
+
+public class Employee {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+		String name;
+		int id;
+		int age;
+		double salary;
+		String address;
+		
+		while(true) {
+			System.out.println("Enter Name-");
+			if(sc.hasNext()) {
+				name=sc.nextLine();
+				break;
+			}
+			else {
+				System.out.println("Enter again with correct input");
+				sc.next();
+			}
+		}
+		
+		
+		
+		while(true) {
+			System.out.println("Enter id-");
+			if(sc.hasNextInt()) { 
+				id=sc.nextInt();
+				break;
+			}
+			else {
+				System.out.println("Enter again with correct input");
+				sc.next();
+				
+			}
+		}
+		
+		
+		
+		while(true) {
+			System.out.println("Enter age-");
+			if(sc.hasNextInt()) { 
+				age=sc.nextInt();
+				break;
+			}
+			else {
+				System.out.println("Enter again with correct input");
+				sc.next();
+				
+			}
+		}
+		
+		
+		while(true) {
+			System.out.println("Enter salary-");
+			if(sc.hasNextDouble()) { 
+				salary=sc.nextDouble();
+				break;
+			}
+			else {
+				System.out.println("Enter again with correct input");
+				sc.next();
+				
+			}
+		}
+		
+		
+		
+		while(true) {
+			System.out.println("Enter address-");
+			if(sc.hasNext()) { 
+				address=sc.nextLine();
+				break;
+			}
+			else {
+				System.out.println("Enter again with correct input");
+				sc.next();
+				
+			}
+		}
+		
+		System.out.println("Name-"+name+" id -"+id+" salary- "+salary+" age-"+age+" address-"+address);
+		
+		
+		
+
+	}
+
+}

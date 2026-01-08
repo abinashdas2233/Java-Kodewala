@@ -1,0 +1,59 @@
+package com.learnencapsulation;
+
+class Bank {
+	private String accountNo;
+	private double balance;
+	private tring password;
+
+	public Bank(String accountNo, double balance, String password) {
+		super();
+		this.accountNo = accountNo;
+		this.balance = balance;
+		this.password = password;
+	}
+
+	public String getAccountNo() {
+		return accountNo;
+	}
+
+	public void setAccountNo(String accountNo) {
+		this.accountNo = accountNo;
+	}
+
+	public double getBalance() {
+		return balance;
+	}
+
+	public void setBalance(double balance, String inputPw) {
+
+		if (password.equals(inputPw)) {
+			this.balance += balance;
+		} else {
+			System.out.println("wrong password");
+		}
+
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+}
+
+public class UpdateTransaction {
+
+	public static void main(String[] args) {
+		Bank bank = new Bank("f342", 2000.00, "uk74@");
+
+		System.out.println("intial balance-" + bank.balance);
+		bank.setBalance(5000.00, "uk74@");
+
+		System.out.println("after update-" + bank.balance);
+
+	}
+
+}

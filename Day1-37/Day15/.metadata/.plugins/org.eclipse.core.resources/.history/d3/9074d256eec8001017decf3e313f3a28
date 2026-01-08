@@ -1,0 +1,17 @@
+package com.kodewala.learn;
+class AccountDetails{
+	String name="Abhi";
+	String number="25684";
+	double amount=50000.00;
+	
+	public String displayDetails() {
+		return name+" "+
+	}
+}
+
+public class Bank {
+	public static void main(String[]args) {
+		
+	}
+
+}

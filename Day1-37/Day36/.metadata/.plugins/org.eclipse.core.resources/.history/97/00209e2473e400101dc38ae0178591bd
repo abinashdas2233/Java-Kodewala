@@ -1,0 +1,6 @@
+package com.stringlength;
+
+public interface IStringLength {
+	String lengthCheck(String name,String surname);
+
+}

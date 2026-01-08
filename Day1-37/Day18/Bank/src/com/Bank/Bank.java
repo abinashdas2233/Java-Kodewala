@@ -1,0 +1,35 @@
+package com.Bank;
+class Customer{
+	String name;
+	double balance;
+	public Customer(String name,double balance) {
+		this.name=name;
+		this.balance=balance;
+		
+	}
+	public void bankStatement(String password) {
+		if(password.equals("2233")) {
+			System.out.println("Details:-");
+			System.out.println("name:"+name+" Balance- "+balance);
+		}
+		else {
+			System.out.println("Wrong password");
+			
+		}
+	}
+}
+
+public class Bank {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Customer c1=new Customer("Abhi",900.00);
+		Customer c2=new Customer("ram",500.00);
+		
+		c1.bankStatement("2233");
+		c2.bankStatement("115");
+		
+
+	}
+
+}

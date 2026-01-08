@@ -1,0 +1,12 @@
+package com.ecom;
+
+class PaymentMode {
+	
+
+}
+class CrditCard extends PaymentMode{
+	
+}
+class DebitCard extends PaymentMode{
+	
+}

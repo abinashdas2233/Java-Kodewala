@@ -1,0 +1,12 @@
+Inheritance:-
+1.using the parent class property and behaviour in child class is called inheritance.
+2.Inheritance implement by using "extends" keywords.
+3.it's helpful to achevie code reuseabiltity.
+
+4.Types of inheritances:-
+	1.simple
+	2.multilevel
+	3.hierarchical
+	4.multiple
+5.java doesn't support multiple inheritance,because of diamond death problem.
+6.mulitple inhertance is possible in java by using interfaces.

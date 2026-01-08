@@ -1,0 +1,6 @@
+1.java 8 feauture introduce for interface:-
+1.default method
+2.static method
+3.In java 8 method with private access modifier but now it's allow from
+java 9.
+4.private method generally used to avoid duplicates of code.

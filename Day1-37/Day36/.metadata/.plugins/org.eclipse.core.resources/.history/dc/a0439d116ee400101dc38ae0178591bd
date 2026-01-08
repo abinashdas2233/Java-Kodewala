@@ -1,0 +1,13 @@
+package com.learn;
+
+public class BookingController {
+
+	public static void main(String[] args) {
+		IOlaBooking book=(name,surname)->{
+			System.out.println(name+" "+surname);
+			
+		};
+		book.registration("ABINASH", "DAS");
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.learn;
+import java.util.*;
+public class OrderDetails {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter id nmb-");
+		int id=sc.nextInt();
+		
+		sc.nextLine();
+		
+		System.out.println("Enter name-");
+		String name=sc.nextLine();
+		
+		System.out.println("Enter price-");
+		double price=sc.nextDouble();
+		
+		System.out.println("Id-"+id+" name-"+name+" price-"+price);
+
+	}
+
+}

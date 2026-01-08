@@ -1,0 +1,17 @@
+package com.irctc;
+
+public class ReservationCategoreis implements Iirctc {
+
+	@Override
+	public void displayStatus() {
+		
+		
+	}
+
+	@Override
+	public void bookTicket() {
+		
+		
+	}
+
+}

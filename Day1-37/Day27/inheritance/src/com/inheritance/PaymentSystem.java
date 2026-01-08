@@ -1,0 +1,70 @@
+package com.inheritance;
+
+class Gateway{
+	String paymentMode;
+	double amount;
+	String accountNo;
+	public Gateway(String paymentMode, double amount, String accountNo) {
+		super();
+		this.paymentMode = paymentMode;
+		this.amount = amount;
+		this.accountNo = accountNo;
+	}
+	
+	public Gateway() {
+		super();
+	}
+
+	public void generateReceipt(){
+		System.out.println("payment mode-"+paymentMode+" amount- "+amount+" to account no-"+accountNo);
+		
+		
+	}
+	
+}
+class CreditCard extends Gateway{
+
+	public CreditCard(String paymentMode, double amount, String accountNo) {
+		super(paymentMode, amount, accountNo);
+		// TODO Auto-generated constructor stub
+	}
+	public CreditCard() {
+		super();
+	}
+	
+}
+class NetBanking extends Gateway{
+
+	public NetBanking(String paymentMode, double amount, String accountNo) {
+		super(paymentMode, amount, accountNo);
+		
+	}
+	public NetBanking() {
+		super();
+	}
+}
+class Upi extends Gateway{
+	
+	public Upi() {
+		super();
+	}
+	
+
+	
+
+	public Upi(String paymentMode, double amount, String accountNo) {
+		super(paymentMode, amount, accountNo);
+	}
+	
+
+}
+public class PaymentSystem {
+
+	public static void main(String[] args) {
+		//Develope a payment application to proceess creditcard,net banking and upi payments
+		Upi upi=new Upi("upi",800.00,"56789");
+		upi.generateReceipt();
+
+	}
+
+}

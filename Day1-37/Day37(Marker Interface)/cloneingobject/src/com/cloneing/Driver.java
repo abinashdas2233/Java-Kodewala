@@ -1,0 +1,13 @@
+package com.cloneing;
+
+public class Driver {
+
+	public static void main(String[] args) throws CloneNotSupportedException {
+		Product p1=new Product(11,"iphone");
+		Product p2=(Product) p1.clone();
+		System.out.println(p2.name);
+		
+
+	}
+
+}

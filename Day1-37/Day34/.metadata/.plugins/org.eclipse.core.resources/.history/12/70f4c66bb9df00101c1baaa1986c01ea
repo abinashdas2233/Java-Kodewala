@@ -1,0 +1,5 @@
+package com.prac;
+
+public class Child implements Iparent1,	Iparent2 extends Parent3{
+
+}

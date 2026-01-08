@@ -1,0 +1,11 @@
+1.class will be loaded into a specific memory location ,which is called meta space;
+2.Befor realse of java 8 meta space also called permgen.
+3.flow of control 
+	-static variable
+	-static block
+	-main()
+	-before creating object,non-static block or IIB.
+	-constructor call
+................
+Method:-is used to perform a repeatative task & to handle multiple calls to perform a task.
+	

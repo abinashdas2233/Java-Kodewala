@@ -1,0 +1,16 @@
+package com.comparision;
+
+import java.util.Date;
+
+import com.sun.org.apache.bcel.internal.generic.NEW;
+
+public class ZomatoTask {
+	public static void main(String[] args) {
+		String email="abinashdas.43@gmail.com";
+		String orderNo="f2342";
+		String date=String.valueOf( new Date().getDate());
+		
+		
+	}
+
+}

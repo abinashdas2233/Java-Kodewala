@@ -1,0 +1,8 @@
+package amazon.login;
+
+public class UserLogin {
+	public static void main(String[] args) {
+		//implementing login functionallity
+	}
+
+}

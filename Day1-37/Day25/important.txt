@@ -1,0 +1,17 @@
+String important question--
+1.why string is immutable?
+ans:-string is immutable ,because of security & performance optimization.
+2.what is a final keyword in java?
+ans:-when a class is declare using final the we can't extend that particular class.and we can't modify that existing class.
+3.why string class is final??
+ans:-String class is final because of security reason however no one child class can extend string class and not modify the class.
+
+4.final class->cannot be inherited.
+5.final method-> cannot be override.
+6.final variable->value is constant.
+
+string Buffer & Builder
+1.String Buffer & Builder are mutable we can modify the content of it.
+2.String Buffer & Builder is useful when we need to frequently modify the string content.
+3.String buffer is thread safe,so it's slow.
+4.builder is vice-versa.string buffer isn't thread safe.but fast.

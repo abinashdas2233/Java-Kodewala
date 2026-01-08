@@ -1,0 +1,2 @@
+stirng(part-4):-
+1.inter()-it will copy the object from heap to scp.if object is already available in scp then it will start pointing.

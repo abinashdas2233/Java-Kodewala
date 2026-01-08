@@ -1,0 +1,24 @@
+Memory Management important:-
+1.before loading java program jvm will reserve some memory in ram.
+2.there are 3 kind memory need for java programme exicution-
+				1.meta-space
+				2.stack
+				3.heap
+3.all static variable ,static method & static block & class(byte code) stored in meta space.
+4.no garbage collection thread present in metaspace to clear memory.
+5.In the if any object not required then we can intiallize that object with null value,then garbage collection automatically come to remove particular object from memory location.
+6.we can explicitly call garbage collection thread using System.gc() but it doesn't advisible to use in real time project ,because it will slow down or dead when gc will call . instance of this we can intialize object with null.
+7.jvm can call the gc at any time ,when jvm will get trigger during high memory consumption or after programme exicution.
+
+
+
+heap:-
+1.instance variable,object get allocation at heap.
+2.Gc runs on heap
+3.inside heap another dedicated aree is present which is called string pool,but don't have gc for it.String litteral get memory allocation here.
+
+
+
+stack:-
+1.local variable ,method's call get allocation at stack memory segment.
+
