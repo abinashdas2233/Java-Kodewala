@@ -1,0 +1,45 @@
+package com.example;
+
+public class CheckedVsUnCheckedExceptionDemo {
+	public static void checkedException() {
+		
+		
+		
+		
+		
+			try {
+				Class.forName("com.java.learn");
+			} catch (ClassNotFoundException e) {
+				
+				e.printStackTrace();
+			}
+			
+			
+		
+		
+		
+		
+		
+		
+		
+	}
+	public static void unCheckException() {
+		String name=null;
+		try {
+			name.length();
+		}
+		catch(NullPointerException e) {
+			System.out.println("unchecked expresion thrown");
+		}
+		
+	}
+	
+	public static void main(String[] args) {
+		checkedException();
+		unCheckException();
+		
+		
+		
+	}
+
+}

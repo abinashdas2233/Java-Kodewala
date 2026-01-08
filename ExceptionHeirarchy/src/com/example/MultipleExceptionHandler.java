@@ -1,0 +1,23 @@
+package com.example;
+
+import java.util.InputMismatchException;
+
+public class MultipleExceptionHandler {
+	public static void exceptionHandler() {
+		try {
+			String name=null;
+			name.length();
+		}
+		catch(NullPointerException | InputMismatchException i) {
+			System.out.println("Inside multiple exception throw single catch blick");
+			
+		}
+	}
+
+	public static void main(String[] args) {
+		// Multiple Exception through single catch block
+		exceptionHandler();
+
+	}
+
+}

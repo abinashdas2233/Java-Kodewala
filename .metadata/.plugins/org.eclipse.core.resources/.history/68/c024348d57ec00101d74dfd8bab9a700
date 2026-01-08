@@ -1,0 +1,23 @@
+package com.customException;
+
+public class OrderControllerDriver {
+	
+	
+	public static void main(String[] args) {
+		double totalPrice=800.00;
+		String partnerName=null;
+		try {
+			if(totalPrice<1000.00) {
+				throw new OrderNotProccedException("order not accepted");
+			}
+			if(partnerName==null) {
+				throw new DeliveryPatnerNotFound("partner not available");
+			}
+			
+		} catch (OrderNotProccedException e) {
+			System.out.println("Total_price below 1000.00 so order not to be proceed");
+		}
+		
+	}
+
+}
