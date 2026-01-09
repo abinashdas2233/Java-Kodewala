@@ -1,0 +1,13 @@
+note:-
+1.object created in java:-
+ans:-		1.using new keyword
+		2.using serilizable and cloneable
+		3.using copy constructor
+2.what is diffrence shallow copy vs deep copy?
+ans:-A shallow copy creates a new object instance but duplicates only the top-level properties and their values. For fields that are primitive data types (like int, String, etc.), the value is copied. However, for fields that are references to other objects, only the reference (memory address) is copied, not the referenced object itself. 
+Behavior: Changes made to a nested object in the copied instance will affect the original object because both point to the same memory location.
+Performance: It is faster and more memory-efficient as it avoids the overhead of recursively creating new objects.
+Implementation: The default implementation of the Object.clone() method in Java performs a shallow copy. 
+Deep Copy
+A deep copy creates a completely new, independent instance of the object and recursively copies all fields, including all nested objects. This ensures that the original and the copy are fully isolated, with no shared memory references. 
+		
