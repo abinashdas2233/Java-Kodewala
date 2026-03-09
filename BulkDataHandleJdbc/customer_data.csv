@@ -1,0 +1,51 @@
+Customer_ID,First_Name,Last_Name,Email,Phone,City,State,Country,Signup_Date,Status
+1,John,Doe,john.doe1@gmail.com,9876543201,New York,NY,USA,2024-01-01,Active
+2,Alice,Smith,alice.smith2@gmail.com,9876543202,London,England,UK,2024-01-02,Active
+3,Bob,Johnson,bob.johnson3@gmail.com,9876543203,Toronto,Ontario,Canada,2024-01-03,Inactive
+4,David,Williams,david.williams4@gmail.com,9876543204,Sydney,NSW,Australia,2024-01-04,Active
+5,Emma,Brown,emma.brown5@gmail.com,9876543205,Delhi,Delhi,India,2024-01-05,Active
+6,Liam,Jones,liam.jones6@gmail.com,9876543206,Mumbai,MH,India,2024-01-06,Inactive
+7,Noah,Miller,noah.miller7@gmail.com,9876543207,Berlin,Berlin,Germany,2024-01-07,Active
+8,Olivia,Davis,olivia.davis8@gmail.com,9876543208,Paris,Ile-de-France,France,2024-01-08,Active
+9,William,Garcia,william.garcia9@gmail.com,9876543209,Madrid,Madrid,Spain,2024-01-09,Active
+10,Ava,Martinez,ava.martinez10@gmail.com,9876543210,Rome,Lazio,Italy,2024-01-10,Inactive
+11,James,Rodriguez,james.rodriguez11@gmail.com,9876543211,Chicago,IL,USA,2024-01-11,Active
+12,Sophia,Martins,sophia.martins12@gmail.com,9876543212,Porto,Norte,Portugal,2024-01-12,Active
+13,Benjamin,Hernandez,ben.hernandez13@gmail.com,9876543213,Houston,TX,USA,2024-01-13,Inactive
+14,Isabella,Lopez,isabella.lopez14@gmail.com,9876543214,Barcelona,Catalonia,Spain,2024-01-14,Active
+15,Lucas,Gonzalez,lucas.gonzalez15@gmail.com,9876543215,Sao Paulo,SP,Brazil,2024-01-15,Active
+16,Mia,Wilson,mia.wilson16@gmail.com,9876543216,Seattle,WA,USA,2024-01-16,Inactive
+17,Henry,Anderson,henry.anderson17@gmail.com,9876543217,San Jose,CA,USA,2024-01-17,Active
+18,Evelyn,Thomas,evelyn.thomas18@gmail.com,9876543218,San Diego,CA,USA,2024-01-18,Active
+19,Alexander,Taylor,alex.taylor19@gmail.com,9876543219,Atlanta,GA,USA,2024-01-19,Inactive
+20,Harper,Moore,harper.moore20@gmail.com,9876543220,Dallas,TX,USA,2024-01-20,Active
+21,Daniel,Jackson,daniel.jackson21@gmail.com,9876543221,Miami,FL,USA,2024-01-21,Active
+22,Abigail,Martin,abigail.martin22@gmail.com,9876543222,Phoenix,AZ,USA,2024-01-22,Active
+23,Matthew,Lee,matthew.lee23@gmail.com,9876543223,Tokyo,Tokyo,Japan,2024-01-23,Inactive
+24,Emily,Perez,emily.perez24@gmail.com,9876543224,Seoul,Seoul,South Korea,2024-01-24,Active
+25,Joseph,Thompson,joseph.thompson25@gmail.com,9876543225,Bangkok,Bangkok,Thailand,2024-01-25,Active
+26,Elizabeth,White,elizabeth.white26@gmail.com,9876543226,Kuala Lumpur,KL,Malaysia,2024-01-26,Inactive
+27,Samuel,Harris,samuel.harris27@gmail.com,9876543227,Singapore,Singapore,Singapore,2024-01-27,Active
+28,Avery,Sanchez,avery.sanchez28@gmail.com,9876543228,Jakarta,Jakarta,Indonesia,2024-01-28,Active
+29,David,Clark,david.clark29@gmail.com,9876543229,Dhaka,Dhaka,Bangladesh,2024-01-29,Active
+30,Sofia,Ramirez,sofia.ramirez30@gmail.com,9876543230,Colombo,Western,Sri Lanka,2024-01-30,Inactive
+31,Andrew,Lewis,andrew.lewis31@gmail.com,9876543231,Chennai,TN,India,2024-02-01,Active
+32,Victoria,Robinson,Victoria.robinson32@gmail.com,9876543232,Hyderabad,TS,India,2024-02-02,Active
+33,Joshua,Walker,joshua.walker33@gmail.com,9876543233,Bangalore,KA,India,2024-02-03,Active
+34,Grace,Young,grace.young34@gmail.com,9876543234,Pune,MH,India,2024-02-04,Inactive
+35,Christopher,Allen,chris.allen35@gmail.com,9876543235,Jaipur,RJ,India,2024-02-05,Active
+36,Chloe,King,chloe.king36@gmail.com,9876543236,Kolkata,WB,India,2024-02-06,Active
+37,Anthony,Wright,anthony.wright37@gmail.com,9876543237,Ahmedabad,GJ,India,2024-02-07,Inactive
+38,Lily,Scott,lily.scott38@gmail.com,9876543238,Surat,GJ,India,2024-02-08,Active
+39,Isaac,Torres,isaac.torres39@gmail.com,9876543239,Nagpur,MH,India,2024-02-09,Active
+40,Hannah,Nguyen,hannah.nguyen40@gmail.com,9876543240,Bhopal,MP,India,2024-02-10,Active
+41,Logan,Hill,logan.hill41@gmail.com,9876543241,Patna,BR,India,2024-02-11,Inactive
+42,Aria,Flores,aria.flores42@gmail.com,9876543242,Lucknow,UP,India,2024-02-12,Active
+43,Jacob,Green,jacob.green43@gmail.com,9876543243,Kanpur,UP,India,2024-02-13,Active
+44,Scarlett,Adams,scarlett.adams44@gmail.com,9876543244,Indore,MP,India,2024-02-14,Active
+45,Michael,Nelson,michael.nelson45@gmail.com,9876543245,Ranchi,JH,India,2024-02-15,Inactive
+46,Ella,Baker,ella.baker46@gmail.com,9876543246,Guwahati,AS,India,2024-02-16,Active
+47,Ethan,Hall,ethan.hall47@gmail.com,9876543247,Shillong,ML,India,2024-02-17,Active
+48,Amelia,Rivera,amelia.rivera48@gmail.com,9876543248,Imphal,MN,India,2024-02-18,Inactive
+49,Mason,Campbell,mason.campbell49@gmail.com,9876543249,Aizawl,MZ,India,2024-02-19,Active
+50,Luna,Mitchell,luna.mitchell50@gmail.com,9876543250,Itanagar,AR,India,2024-02-20,Active
